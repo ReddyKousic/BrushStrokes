@@ -3,6 +3,8 @@
   
 </p>
 
+> [!CAUTION]
+> I am still writing the Documentation and this README, but the Code is completed and works.
 
 # BrushStrokes API
 Here is the full [Documentation](https://brushstrokes.lilchick.online/) before you begin.
