@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watercolor Image Upload</title>
+</head>
+<body>
+    <h1>Watercolor Image Upload</h1>
+    <form id="uploadForm" action="/" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Upload</button>
+    </form>
+    
+    <div id="result">
+        <!-- Watercolor image will be displayed here -->
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(this);
+            const response = await fetch('/', {
+                method: 'POST',
+                body: formData
+            });
+
+            const responseData = await response.json();
+            if (response.ok) {
+                const imageURL = responseData.watercolor_image_url;
+                const imageElement = document.createElement('img');
+                imageElement.src = imageURL;
+                document.getElementById('result').innerHTML = '';
+                document.getElementById('result').appendChild(imageElement);
+            } else {
+                alert('Error: ' + responseData.error);
+            }
+        });
+    </script>
+</body>
+</html>
