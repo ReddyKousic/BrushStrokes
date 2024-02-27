@@ -17,10 +17,18 @@ python -m venv BrushStrokesENV
 
 ```
 
-
 Next install the requirements.
 ```bash
 pip install -r requirements.txt
+
+```
+
+Create an account in Supabase, create a new project and finally create a Storage bucket called `testbucket`.
+
+And get create a new file called `.env` in that file fill as below
+```bash
+SUPABASE_URL= <YOUR_SUPABASE_URL>
+API_KEY= <YOUR-SERVICE_ROLE_API_KEY>
 
 ```
 Start the server.
@@ -29,3 +37,4 @@ Start the server.
 python main.py
 
 ```
+I hope it runs, if not please open an issue.
