@@ -20,9 +20,9 @@ def apply_watercolor_effect(input_img):
     return watercolor_image
 
 
-@app.route('/get', methods=['GET','POST'])
-def get():
-    return render_template('index.html')
+# @app.route('/get', methods=['GET','POST'])
+# def get():
+#     return render_template('index.html')
 
     
 
