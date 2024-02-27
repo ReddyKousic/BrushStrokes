@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 Create an account in Supabase, create a new project and finally create a Storage bucket called `testbucket`.
 
-And get create a new file called `.env` in that file fill as below
+And create a new file called `.env` in that file fill as below
 ```bash
 SUPABASE_URL= <YOUR_SUPABASE_URL>
 API_KEY= <YOUR-SERVICE_ROLE_API_KEY>
