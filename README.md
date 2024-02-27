@@ -5,7 +5,7 @@
 
 
 # BrushStrokes API
-Here is the full [Documentation](https://www.notion.so/kousic/BrushStrokes-d28840c6aab04375ab63750819754d95?pvs=4) before you begin.
+Here is the full [Documentation](https://brushstrokes.lilchick.online/) before you begin.
 
 BrushStrokes API offers a seamless way to convert ordinary images into captivating paintings, effortlessly adding an artistic touch to your digital creations. Harness the power of this API to infuse your applications with the charm of traditional artistry, turning every pixel into a stroke of genius.
 
