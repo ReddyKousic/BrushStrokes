@@ -7,7 +7,7 @@
 > Everything is up-to-date.
 
 # BrushStrokes API
-Here is the full [Documentation](https://github.com/ReddyKousic/BrushStrokes/wiki) before you begin.
+Here is the full [Documentation](https://github.com/ReddyKousic/BrushStrokes/wiki) before you begin...
 
 BrushStrokes API offers a seamless way to convert ordinary images into captivating paintings, effortlessly adding an artistic touch to your digital creations. Harness the power of this API to infuse your applications with the charm of traditional artistry, turning every pixel into a stroke of genius.
 
